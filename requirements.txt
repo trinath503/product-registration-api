@@ -1,0 +1,9 @@
+Flask==2.0.2
+Flask-JWT-Extended==4.3.0
+SQLAlchemy==1.4.31
+
+pip install Flask Flask-JWT-Extended SQLAlchemy
+
+
+# pip freeze > requirements.txt
+# pip install django djangorestframework psycopg2

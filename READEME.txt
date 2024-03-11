@@ -1,0 +1,30 @@
+Product Registration API
+    This is a RESTful API for product registration, built using Python with Flask framework. It allows users to register new products, update existing product information, search and retrieve products, and perform other CRUD operations.
+
+Getting Started
+    Follow these instructions to set up and run the project locally.
+
+Prerequisites
+    Python 3.x
+    pip (Python package installer)
+    MySQL or PostgreSQL database
+Installation
+    Clone the repository: git clone https://github.com/trinath503/product-registration-api.git
+
+Navigate to the project directory:
+
+    cd product-registration-api
+    Install dependencies using pip: pip install -r requirements.txt
+
+
+Configuration
+
+    FLASK_APP=app.py
+    FLASK_ENV=development
+    DATABASE_URI=mysql://username:password@localhost/database_name
+    Replace DATABASE_URI with your database connection string.
+
+Set up the database:
+
+    Create a database in MySQL or PostgreSQL for the project.
+    Update DATABASE_URI in the .env file with your database credentials.
